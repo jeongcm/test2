@@ -8,7 +8,7 @@
 #define FAULT_FLAG -1
 int main() {
     printf("Hello, World!\n");
-    char *buf = "hello clion\n";
+    char *buf = "hello clionhihi\n";
     int fd;
     if (FAULT_FLAG!=(fd =open("/home/jcm/test.txt",O_RDWR|O_TRUNC|O_CREAT,0644))) {
         printf("fd : %d\n",fd);
